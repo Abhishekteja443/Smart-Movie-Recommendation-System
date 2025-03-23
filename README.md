@@ -1,4 +1,4 @@
-# Movie Tweet Sentiment Analysis  
+# Smart Movie Recommendatiion System🎬
 
 ## Overview  
 This project applies **Natural Language Processing (NLP)** techniques to analyze sentiments from movie-related tweets. A **Recurrent Neural Network (RNN)** with **Long Short-Term Memory (LSTM)** layers is used for sentiment classification. The project includes a **Flask-based API** and a **web frontend** built with HTML, CSS, and JavaScript to provide a user-friendly interface for interacting with the model.  
@@ -20,9 +20,6 @@ This project applies **Natural Language Processing (NLP)** techniques to analyze
 📄 tempCodeRunnerFile.ipynb # Temporary file for code execution
 📄 test.csv, train.csv, validate.csv # Training, validation, and test datasets
 
-markdown
-Copy
-Edit
 
 ## Technologies Used  
 - **Python**, **Flask** for backend development  
@@ -36,18 +33,18 @@ Edit
    ```sh
    git clone https://github.com/your-username/movie-tweet-sentiment-analysis.git
    cd movie-tweet-sentiment-analysis
+   ```
 Install dependencies:
 
-sh
-Copy
-Edit
+
+```sh
 pip install -r requirements.txt
+```
 Run the Flask app:
 
-sh
-Copy
-Edit
+```sh
 python app.py
+```
 Open http://127.0.0.1:5000/ in your browser.
 
 Usage
